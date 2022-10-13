@@ -1,0 +1,6 @@
+﻿{
+  "themoviedb": {
+    "BaseURL": "https://api.themoviedb.org/3/",
+    "ApiKey": ""
+  }
+}

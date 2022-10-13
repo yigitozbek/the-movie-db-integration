@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.4.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.9" />
+		<PackageReference Include="NLog" Version="5.0.4" />
+		<PackageReference Include="NLog.Web.AspNetCore" Version="5.1.4" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.9">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.9">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+
+		<PackageReference Include="PostSharp" Version="6.10.10" />
+
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <ProjectReference Include="..\TheMovieDb.Application.Contract\TheMovieDb.Application.Contract.csproj" />
+	  <ProjectReference Include="..\TheMovieDb.Application\TheMovieDb.Application.csproj" />
+	  <ProjectReference Include="..\TheMovieDb.BackgroundWorker\TheMovieDb.BackgroundWorker.csproj" />
+	  <ProjectReference Include="..\TheMovieDb.Domain.Shred\TheMovieDb.Domain.Shred.csproj" />
+	</ItemGroup>
+
+
+</Project>

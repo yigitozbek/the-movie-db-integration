@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Yella.Domain.Dto" Version="1.0.0" />
+		<PackageReference Include="Yella.Utilities" Version="1.0.0.3" />
+		<PackageReference Include="FluentValidation" Version="11.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\TheMovieDb.Domain.Shred\TheMovieDb.Domain.Shred.csproj" />
+	</ItemGroup>
+
+
+</Project>

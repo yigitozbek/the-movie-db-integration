@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6A5E199B-5937-4C31-A49B-4786F65C4E98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{61276AC2-4666-4B26-8D4A-75A17E1249D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMovieDb.Application", "src\TheMovieDb.Application\TheMovieDb.Application.csproj", "{A94ED878-52FB-48A4-B656-0A697FBA751C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMovieDb.Application.Contract", "src\TheMovieDb.Application.Contract\TheMovieDb.Application.Contract.csproj", "{8AF4BE74-2645-477A-BF9E-85DD96E38BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMovieDb.Domain", "src\TheMovieDb.Domain\TheMovieDb.Domain.csproj", "{0B53E83E-B68B-4B2B-94A3-EA05F5B1A2CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMovieDb.Domain.Shred", "src\TheMovieDb.Domain.Shred\TheMovieDb.Domain.Shred.csproj", "{8C5A637C-E2C1-49F2-ABCF-B4EF81708BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMovieDb.Integration", "src\TheMovieDb.Integration\TheMovieDb.Integration.csproj", "{C6A37AAD-D602-4380-A598-A27990FBCE48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMovieDb.WebAPI", "src\TheMovieDb.WebAPI\TheMovieDb.WebAPI.csproj", "{FBC96837-0534-4AF8-A74D-4FF2CC009A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMovieDb.BackgroundWorker", "src\TheMovieDb.BackgroundWorker\TheMovieDb.BackgroundWorker.csproj", "{6DED8CE5-6929-4A75-8264-A98B532120D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A94ED878-52FB-48A4-B656-0A697FBA751C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94ED878-52FB-48A4-B656-0A697FBA751C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94ED878-52FB-48A4-B656-0A697FBA751C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94ED878-52FB-48A4-B656-0A697FBA751C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF4BE74-2645-477A-BF9E-85DD96E38BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF4BE74-2645-477A-BF9E-85DD96E38BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF4BE74-2645-477A-BF9E-85DD96E38BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF4BE74-2645-477A-BF9E-85DD96E38BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B53E83E-B68B-4B2B-94A3-EA05F5B1A2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B53E83E-B68B-4B2B-94A3-EA05F5B1A2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B53E83E-B68B-4B2B-94A3-EA05F5B1A2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B53E83E-B68B-4B2B-94A3-EA05F5B1A2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5A637C-E2C1-49F2-ABCF-B4EF81708BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5A637C-E2C1-49F2-ABCF-B4EF81708BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5A637C-E2C1-49F2-ABCF-B4EF81708BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5A637C-E2C1-49F2-ABCF-B4EF81708BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A37AAD-D602-4380-A598-A27990FBCE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A37AAD-D602-4380-A598-A27990FBCE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A37AAD-D602-4380-A598-A27990FBCE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A37AAD-D602-4380-A598-A27990FBCE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC96837-0534-4AF8-A74D-4FF2CC009A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC96837-0534-4AF8-A74D-4FF2CC009A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC96837-0534-4AF8-A74D-4FF2CC009A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC96837-0534-4AF8-A74D-4FF2CC009A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DED8CE5-6929-4A75-8264-A98B532120D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DED8CE5-6929-4A75-8264-A98B532120D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DED8CE5-6929-4A75-8264-A98B532120D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DED8CE5-6929-4A75-8264-A98B532120D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A94ED878-52FB-48A4-B656-0A697FBA751C} = {6A5E199B-5937-4C31-A49B-4786F65C4E98}
+		{8AF4BE74-2645-477A-BF9E-85DD96E38BBF} = {6A5E199B-5937-4C31-A49B-4786F65C4E98}
+		{0B53E83E-B68B-4B2B-94A3-EA05F5B1A2CF} = {6A5E199B-5937-4C31-A49B-4786F65C4E98}
+		{8C5A637C-E2C1-49F2-ABCF-B4EF81708BF2} = {6A5E199B-5937-4C31-A49B-4786F65C4E98}
+		{C6A37AAD-D602-4380-A598-A27990FBCE48} = {6A5E199B-5937-4C31-A49B-4786F65C4E98}
+		{FBC96837-0534-4AF8-A74D-4FF2CC009A08} = {6A5E199B-5937-4C31-A49B-4786F65C4E98}
+		{6DED8CE5-6929-4A75-8264-A98B532120D5} = {6A5E199B-5937-4C31-A49B-4786F65C4E98}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F6C44B4-7B47-414C-A556-AD05F01AD0C3}
+	EndGlobalSection
+EndGlobal
